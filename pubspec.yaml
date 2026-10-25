@@ -1,0 +1,34 @@
+name: gopro_gps_cam
+description: Trigger a GoPro over Bluetooth, download the photo over Wi-Fi, and embed the phone's GPS in the EXIF.
+publish_to: none
+version: 1.8.0+12
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^2.3.4        # free for personal/nonprofit use; see its LICENSE
+  wifi_iot: ">=0.3.19+3 <0.5.0"
+  geolocator: ">=13.0.1 <15.0.0"
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  gal: ^2.3.0
+  share_plus: ^13.3.1
+  media_kit: ^1.2.6
+  media_kit_video: ^2.0.1
+  media_kit_libs_video: ^1.0.7
+  archive: ^4.5.2
+  image: ^4.12.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=4.0.0 <7.0.0"
+  xml: ^7.1.0
+
+flutter:
+  uses-material-design: true
